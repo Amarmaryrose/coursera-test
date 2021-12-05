@@ -70,7 +70,8 @@ h2 {
 
 @media (max-width: 767px) {
     .col-sm-12 {
-        margin: 0 15px 15px;
+        flex: 0 0 98%;
+        margin: 0 1% 15px;
         margin-bottom: 15px;
     }
 }
