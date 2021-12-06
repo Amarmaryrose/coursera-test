@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.wrapper {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-between;
+}
+
+.row>div {
+    border: black solid 2px;
+    background-color: grey;
+    padding: 0;
+}
+
+.row>div p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.chicken h2, .beef h2, .sushi h2 {
+    border: black solid 1px;
+    width: 160px;
+    float: right;
+}
+
+.chicken h2 {   
+    background: pink;
+}
+.chicken p, .beef p, .sushi p {
+    clear: both;
+}
+
+.beef h2 {
+    background: blue;
+}
+
+.sushi h2 {
+    background: goldenrod;
+}
+
+@media (min-width: 992px) {
+    .flexing {
+        flex: 0 0 32%;
+        max-width: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .flexing {
+        border: red solid 1px;
+        flex: 0 0 48.5%;
+    }
+    .flexing:last-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+    .flexing {
+        flex: 0 0 90%;
+        margin: 0 auto 15px;
+    }
+}
