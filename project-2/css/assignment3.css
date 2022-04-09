@@ -1,0 +1,466 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Sans-Serif;
+    box-sizing: border-box;
+    min-width: 1000px;
+}
+
+header {
+    background-image: url(../airport.jpg);
+}
+
+header,
+.layer5 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.layer1 {
+    background-color: rgba(0, 0, 0, 1.0);
+    color: white;
+}
+
+.m3 {
+    width: 65%;
+    margin: 0;
+    display: flex;
+}
+
+.m3 h6 {
+    padding: 5px 2px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.m3 p {
+    margin-left: auto;
+}
+
+select {
+    width: 15rem;
+    height: 2rem;
+}
+
+.layer2 {
+    margin-top: 3px;
+    display: flex;
+    color: white;
+}
+
+.layer2.item2 {
+    display: table;
+    width: 30rem;
+    margin-left: auto;
+}
+
+.layer2 img {
+    background-color: black;
+    width: 250px;
+    height: 100px;
+    color: white;
+}
+
+.layer2 span {
+    background-color: blue;
+    display: inline-block;
+    width: 13rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.layer p {
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    padding: 0;
+    width: 41rem;
+    margin: 0 auto;
+    color: white;
+    /*border: 1px blue solid;*/
+}
+
+li {
+    display: inline-block;
+    /*border: 1px yellow solid;*/
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.layer3 {
+    display: flex;
+    font-size: 0.8em;
+    margin: 70px 0;
+}
+
+.layer3.item2 {
+    width: 300px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #CECCBE;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+}
+
+label {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.layer3.item1 {
+    display: block;
+    width: 350px;
+    color: white;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.layer3.item1 h1 {
+    font-size: 2rem;
+}
+
+#layer3 {
+    font-weight: bold;
+}
+
+#layer3 span {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#layer3 span:first-child {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.layer4 {
+    display: flex;
+}
+
+.col1 {
+    position: relative;
+    width: 47.5%;
+    /* border: 1px solid yellow;*/
+    margin-right: 5%;
+    padding: 4px;
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+button {
+    border: 1px solid gray;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    margin: 0;
+}
+
+.col1 p {
+    text-align: justify;
+}
+
+.col1 h2 {
+    margin: 0;
+}
+
+.col2 {
+    width: 47.5%;
+    padding: 4px;
+    /*border: 1px solid blue;*/
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin: 60px auto;
+}
+
+.row:nth-child(1) {
+    margin-top: 0;
+}
+
+.row:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.row img {
+    background-color: black;
+    width: 10%;
+    height: 5%;
+    color: white;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.row div {
+    /*border-bottom: 1px solid gray;*/
+    width: 87%;
+    margin-left: auto;
+}
+
+.row div h3 {
+    margin: 0;
+}
+
+#faq {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 35px;
+    font-weight: normal;
+}
+
+#faq span {
+    border-bottom: 1px solid magenta;
+}
+
+.faq p {
+    font-size: .8em;
+    padding: 10px;
+}
+
+.layer5 {
+    padding-bottom: 100px;
+    background-image: url(../plane.jpg);
+}
+
+#heading {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#heading p {
+    font-size: .8em;
+}
+
+.plans {
+    display: flex;
+    text-align: center;
+}
+
+.planA,
+.planB {
+    width: 19%;
+    background-color: white;
+    margin: auto;
+}
+
+.planA div:first-child,
+.planB div:nth-child(2) {
+    background-color: blue;
+    color: white;
+}
+
+.plans p {
+    margin: 0;
+    padding: 10px;
+}
+
+.percent {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.percent span {
+    border-top: 1px solid white;
+}
+
+.percent #span {
+    border-top: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.planA a {
+    color: white;
+    border: 1px solid white;
+}
+
+.planB a {
+    color: black;
+    border: 1px solid;
+}
+
+.planA div,
+.planB div {
+    padding: 5px;
+}
+
+@media (min-width: 992px) {
+    body {
+        font-family: Sans-Serif;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .plans {
+        display: flex;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        border-bottom: 1px solid gray;
+        padding: 0;
+        margin: 60px auto;
+    }
+    .m3 {
+        width: 65%;
+        margin: 0;
+        display: flex;
+    }
+    .m3 h6 {
+        padding: 5px 2px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+    .m3 p {
+        margin-left: auto;
+    }
+    select {
+        width: 15rem;
+        height: 2rem;
+    }
+    .layer2 {
+        margin-top: 3px;
+        display: flex;
+    }
+    .layer2.item2 {
+        display: table;
+        width: 30rem;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 991px) {
+    body {
+        font-family: Sans-Serif;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .plans {
+        display: flex;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        border-bottom: 1px solid gray;
+        padding: 0;
+        margin: 60px auto;
+    }
+    .m3 {
+        width: 65%;
+        margin: 0;
+        display: flex;
+    }
+    .m3 h6 {
+        padding: 5px 2px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+    .m3 p {
+        margin-left: auto;
+    }
+    select {
+        width: 15rem;
+        height: 2rem;
+    }
+    .layer2 {
+        margin-top: 3px;
+        display: flex;
+    }
+    .layer2.item2 {
+        display: table;
+        width: 30rem;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-family: Sans-Serif;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    .plans {
+        display: flex;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        border-bottom: 1px solid gray;
+        padding: 0;
+        margin: 60px auto;
+    }
+    .m3 {
+        width: 65%;
+        margin: 0;
+        display: flex;
+    }
+    .m3 h6 {
+        padding: 5px 2px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+    .m3 p {
+        margin-left: auto;
+    }
+    select {
+        width: 15rem;
+        height: 2rem;
+    }
+    .layer2 {
+        margin-top: 3px;
+        display: flex;
+    }
+    .layer2.item2 {
+        display: table;
+        width: 30rem;
+        margin-left: auto;
+    }
+}
