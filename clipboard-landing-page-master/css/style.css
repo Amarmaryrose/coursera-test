@@ -1,0 +1,665 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    position: relative;
+}
+
+.back {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16rem;
+}
+
+.logo img {
+    width: 5%;
+    height: 10%;
+    position: relative;
+    left: 47%;
+    top: 50px;
+}
+
+#write h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#write h6 {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row1 #os .ios:hover {
+    background-color: blue;
+}
+
+.row1 #os .ios {
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    margin-right: 5px;
+    height: 30px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+}
+
+.row1 #ac .mac {
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    height: 30px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+}
+
+.row1 #ac .mac:hover {
+    background-color: blueviolet;
+}
+
+.row1 {
+    display: flex;
+    font-size: 11px;
+    margin-left: 41%;
+}
+
+#note h4 {
+    word-spacing: 5px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#note h6 {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row2 img {
+    width: 52%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: -3%;
+}
+
+#text {
+    position: absolute;
+    left: 53%;
+    bottom: 90px;
+}
+
+#text h5 {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 3rem;
+}
+
+#text p {
+    opacity: 20%;
+    font-size: 11px;
+}
+
+.row3 h4 {
+    word-spacing: 5px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.relate {
+    position: relative;
+}
+
+.row3 p {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row4 img {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 22%;
+}
+
+.row5 h4 {
+    word-spacing: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.row5 p {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row6 {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.row6 #book {
+    width: 50%;
+}
+
+#book img {
+    margin-left: 190px;
+}
+
+#book h5 {
+    word-spacing: 5px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#book p {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row7 {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.row7 #micro {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.row8 h5 {
+    word-spacing: 5px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.row8 p {
+    text-align: center;
+    opacity: 20%;
+}
+
+.row9 #os .ios {
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    margin-right: 5px;
+    height: 30px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+}
+
+.row9 #ac .mac {
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    height: 30px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+}
+
+.row9 {
+    display: flex;
+    font-size: 11px;
+    margin-left: 41%;
+}
+
+.row9 #os .ios:hover {
+    background-color: blue;
+}
+
+.row9 #ac .mac:hover {
+    background-color: blueviolet;
+}
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 70px;
+    height: 100px;
+}
+
+#word {
+    position: absolute;
+    left: 30%;
+    bottom: 18%;
+    display: inline-flex;
+}
+
+#word p {
+    margin-right: 70px;
+}
+
+#media {
+    position: absolute;
+    left: 80%;
+    bottom: 14%;
+    display: flex;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+#media #face {
+    margin-right: 30px;
+}
+
+#media #face a img:hover {
+    background-color: blue;
+}
+
+#icon img {
+    width: 4%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#remain {
+    position: absolute;
+    left: 30%;
+    bottom: -20%;
+    display: inline-flex;
+}
+
+#remain p {
+    margin-right: 40px;
+}
+
+@media (min-width: 1440px) {
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        position: relative;
+    }
+    .back {
+        background-image: url(../images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 16rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        position: relative;
+    }
+    .back {
+        background-image: url(../images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 16rem;
+    }
+    .row1 {
+        display: flex;
+        font-size: 11px;
+        margin-left: 38%;
+    }
+    #book img {
+        margin-top: 20px;
+        margin-left: 10rem;
+    }
+    .row7 {
+        display: flex;
+        width: 100%;
+        margin-top: 70px;
+        margin-left: -5%;
+    }
+    .row7 #micro {
+        width: 20%;
+        margin-left: 3%;
+    }
+    .row9 {
+        display: flex;
+        font-size: 11px;
+        margin-left: 38%;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 799px) {
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        position: relative;
+    }
+    .back {
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 16rem;
+    }
+    .row1 #os .ios {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        height: 30px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+    }
+    .row1 #ac .mac {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        margin-top: 15px;
+        height: 30px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+    }
+    .row1 {
+        display: block;
+        font-size: 11px;
+        margin-left: 42%;
+    }
+    .row2 img {
+        width: 100%;
+        margin-left: 3px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    #text {
+        position: relative;
+        top: 30px;
+        left: 1px;
+    }
+    #text h5 {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 3rem;
+    }
+    #text p {
+        text-align: center;
+        opacity: 20%;
+        font-size: 11px;
+    }
+    .row6 {
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .row6 #book {
+        margin-left: 24%;
+    }
+    #book img {
+        margin-top: 20px;
+        margin-left: 14rem;
+    }
+    #book h5 {
+        word-spacing: 5px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #book p {
+        text-align: center;
+        opacity: 20%;
+    }
+    .row7 {
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .row7 #micro {
+        width: 20%;
+        margin-left: 36%;
+        margin-top: 40px;
+    }
+    .row8 h5 {
+        word-spacing: 2px;
+        margin-top: 70px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .row9 #os .ios {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        margin-right: 5px;
+        height: 30px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+    }
+    .row9 #ac .mac {
+        border-radius: 15px;
+        margin-top: 15px;
+        border: none;
+        padding: 2px;
+        height: 30px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+    }
+    .row9 {
+        display: block;
+        font-size: 11px;
+        margin-left: 40%;
+    }
+    footer {
+        width: 100%;
+        background-color: whitesmoke;
+        margin-top: 70px;
+        height: 300px;
+    }
+    #word {
+        position: absolute;
+        top: 80px;
+        left: 42%;
+        display: block;
+    }
+    #icon img {
+        width: 4%;
+        margin-top: 30px;
+        margin-left: 45%;
+    }
+    #remain {
+        position: absolute;
+        top: 170px;
+        left: 42%;
+        display: block;
+    }
+    #media {
+        position: absolute;
+        top: 240px;
+        left: 36%;
+        display: flex;
+        margin-right: 10%;
+        margin-top: 10px;
+    }
+    #media #face {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        position: relative;
+    }
+    .back {
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 16rem;
+    }
+    #write h4 {
+        text-align: center;
+    }
+    #write h6 {
+        text-align: center;
+    }
+    .row1 #os .ios {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        height: 30px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+    }
+    .row1 #ac .mac {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        margin-top: 15px;
+        height: 30px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+    }
+    .row1 {
+        display: block;
+        font-size: 11px;
+        margin-left: 35%;
+    }
+    .row2 img {
+        width: 100%;
+        margin-left: 3px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    #text {
+        position: relative;
+        top: 30px;
+        left: 1px;
+    }
+    #text h5 {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 3rem;
+    }
+    #text p {
+        text-align: center;
+        opacity: 20%;
+        font-size: 11px;
+    }
+    .row6 {
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .row6 #book {
+        margin-left: 78px;
+    }
+    #book img {
+        margin-top: 20px;
+        margin-left: 8rem;
+    }
+    #book h5 {
+        word-spacing: 5px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #book p {
+        text-align: center;
+        opacity: 20%;
+    }
+    .row7 {
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .row7 #micro {
+        width: 20%;
+        margin-left: 26%;
+        margin-top: 40px;
+    }
+    .row8 h5 {
+        word-spacing: 2px;
+        margin-top: 70px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .row9 #os .ios {
+        border-radius: 15px;
+        border: none;
+        padding: 2px;
+        margin-right: 5px;
+        height: 30px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+    }
+    .row9 #ac .mac {
+        border-radius: 15px;
+        margin-top: 15px;
+        border: none;
+        padding: 2px;
+        height: 30px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+    }
+    .row9 {
+        display: block;
+        font-size: 11px;
+        margin-left: 33%;
+    }
+    footer {
+        width: 100%;
+        background-color: whitesmoke;
+        margin-top: 70px;
+        height: 300px;
+    }
+    #word {
+        position: absolute;
+        top: 80px;
+        left: 37%;
+        display: block;
+    }
+    #icon img {
+        width: 4%;
+        margin-top: 30px;
+        margin-left: 45%;
+    }
+    #remain {
+        position: absolute;
+        top: 170px;
+        left: 37%;
+        display: block;
+    }
+    #media {
+        position: absolute;
+        top: 240px;
+        left: 28%;
+        display: flex;
+        margin-right: 10%;
+        margin-top: 10px;
+    }
+    #media #face {
+        margin-right: 30px;
+    }
+}
