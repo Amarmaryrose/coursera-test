@@ -382,6 +382,11 @@ h4 {
         padding: 5px;
         color: black;
     }
+    nav ul li a:hover {
+        border: 1px solid blue;
+        border: none;
+        transition: .5s;
+    }
     nav ul li button {
         margin-left: -20px;
         padding: 8px;
@@ -403,7 +408,7 @@ h4 {
         font-weight: bold;
     }
     .arrow {
-        margin-left: 50%;
+        margin-left: 47%;
         margin-top: 45%;
     }
     .row1 {
@@ -441,8 +446,8 @@ h4 {
         text-align: center;
     }
     .orange #design h4 {
-        width: 70%;
-        margin-left: 40px;
+        width: 100%;
+        margin-left: 20px;
     }
     .photo #graphy {
         width: 70%;
@@ -452,7 +457,7 @@ h4 {
         margin-left: 35px;
     }
     .photo #graphy h4 {
-        width: 70%;
+        width: 100%;
         margin-left: 40px;
     }
     .row4 h3 {
@@ -596,6 +601,11 @@ h4 {
         color: black;
         font-weight: bold;
     }
+    nav ul li a:hover {
+        border: 1px solid blue;
+        border: none;
+        transition: .5s;
+    }
     nav ul li button {
         margin-left: -20px;
         padding: 8px;
@@ -617,7 +627,7 @@ h4 {
         font-weight: bold;
     }
     .arrow {
-        margin-left: 50%;
+        margin-left: 47%;
         margin-top: 100px;
     }
     .row1 {
@@ -655,8 +665,8 @@ h4 {
         text-align: center;
     }
     .orange #design h4 {
-        width: 70%;
-        margin-left: 40px;
+        width: 100%;
+        margin-left: 20px;
     }
     .photo #graphy {
         width: 70%;
@@ -666,7 +676,7 @@ h4 {
         margin-left: 35px;
     }
     .photo #graphy h4 {
-        width: 70%;
+        width: 100%;
         margin-left: 40px;
     }
     .row4 h3 {
